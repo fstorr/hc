@@ -1,0 +1,15 @@
+:root{
+  background: #9013FE;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background:hsla(0,0%,100%,0.6);
+  color:black;
+  font:1rem / 1.5 sans-serif;
+}
