@@ -17,7 +17,7 @@ const paths = {
 
 gulp.task('styles', function() {
   return gulp.src(paths.styles.dev)
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'expanded'}))
     .on('error', sass.logError)
     .pipe(gulp.dest(paths.styles.prod))
     .pipe(browserSync.reload({stream: true}));
