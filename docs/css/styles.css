@@ -1,12 +1,23 @@
 :root {
-  background: #9013FE;
+  background-image: linear-gradient(var(--rainbow));
   box-sizing: border-box;
-  font-size: 100%; }
+  font-size: 100%;
+  --rainbow: 90deg,
+  red, red calc(100% / 7),
+  orange calc(100% / 7), orange calc((100% / 7) * 2), 
+  yellow calc((100% / 7) * 2), yellow calc((100% / 7) * 3),
+  green calc((100% / 7) * 3), green calc((100% / 7) * 4), 
+  blue calc((100% / 7) * 4), blue calc((100% / 7) * 5), 
+  indigo calc((100% / 7) * 5), indigo calc((100% / 7) * 6), 
+  violet calc((100% / 7) * 6), violet calc((100% / 7) * 7)
+;
+}
 
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
-  background: rgba(255, 255, 255, 0.6);
   color: black;
-  font: 1rem / 1.5 sans-serif; }
+  font: 1rem / 1.5 sans-serif;
+}
