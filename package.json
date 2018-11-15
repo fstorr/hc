@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Henry's site",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Henry and Francis",
   "license": "ISC",
   "devDependencies": {
@@ -12,6 +11,6 @@
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-cli": "github:gulpjs/gulp-cli",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.2"
   }
 }
