@@ -7,9 +7,9 @@
   "author": "Henry and Francis",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.0",
+    "browser-sync": "^2.26.5",
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.1",
     "gulp-cli": "github:gulpjs/gulp-cli",
     "gulp-sass": "^4.0.2"
   }
